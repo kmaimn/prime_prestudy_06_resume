@@ -1,0 +1,80 @@
+html, body {
+	font-family: sans-serif;
+	width: 95%;
+	height: 100%;
+	background-color: rgba(179, 179, 179);
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.education, .experience {
+	display: none;
+}
+
+#header {
+	text-align: center;
+	background-color: rgba(255, 153, 0, 0.6);
+	color: rgba(0, 0, 0, 0.8);
+	border: 2px solid #000;
+	border-radius: 15px;
+	line-height: 1px;
+	}
+
+a {
+	color: rgba(0, 0, 0, 0.8);
+}	
+a:hover {
+	color: white;
+}
+
+#name {
+	font-size: 30px;
+	line-height: 1px;
+	font-weight: bold;
+}	
+
+.education h1{
+	background-color: rgba(255, 153, 0, 0.6);
+	color: rgba(0, 0, 0, 0.8);	
+	border: 2px solid #000;
+	border-radius: 15px;
+	padding-left: 5px;
+	width: 147px;
+}
+
+.education h2{
+	line-height: 5px;
+}
+
+.education p{
+	line-height: 1px;
+}
+
+.experience h1{
+	background-color: rgba(255, 153, 0, 0.6);
+	color: rgba(0, 0, 0, 0.8);	
+	border: 2px solid #000;
+	border-radius: 15px;
+	padding-left: 5px;
+	width: 356px;
+}
+
+.examples h2{
+	line-height: 5px;
+}
+
+.examples p{
+	line-height: 1px;
+}
+
+#footer {
+	text-align: center;
+	background-color: rgba(255, 153, 0, 0.6);
+	color: rgba(0, 0, 0, 0.8);
+	border: 2px solid #000;
+	border-radius: 15px;
+	line-height: 1px;
+	font-size: 14px;
+}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
