@@ -4,11 +4,18 @@
 	<title>Kim Mai</title>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<script type="text/javascript" src="script.js"></script>
-	<script src="jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="script.js"></script>	
 </head>
 
 <body>
+	<script src="jquery-3.1.0.js"></script>
+	<script>$(document).ready(function(){
+		$("button").click(function(){
+			$(".education").toggle();
+			$(".experience").toggle();
+		});
+	});
+	</script>
 	<div class="header">
 		<p id="name">Kim Mai</p>
 		<p id="address">66 9th Street E #1316 | Saint Paul, Minnesota 55101</p>
